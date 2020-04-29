@@ -48,6 +48,13 @@ let devMountainGoal = null
 
 //Code here
 
+function greeting(name) {
+  // console.log("greeting has been invoked")
+  return 'Hello, ' + name
+}
+
+// console.log(greeting)
+
 //////////////////PROBLEM 7////////////////////
 
 //Write a function expression called newGreeting.
@@ -55,12 +62,21 @@ let devMountainGoal = null
 
 //Code Here
 
+let newGreeting = function (name) {
+  // console.log('newGreeting has been invoked')
+  return 'Hello, ' + name
+}
+
+// console.log(newGreeting)
+
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+
+let groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
@@ -71,10 +87,22 @@ let devMountainGoal = null
 
 //Code Here
 
+
+let dog = {
+  name: "Sebastian",
+  color: "Golden Brown",
+  age: 7,
+  goodBoy: true
+}
+
+console.log(dog)
+
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+
+let devMountainClassPet = (dog.name)
 
 //////////////////PROBLEM 10////////////////////
 
@@ -86,6 +114,18 @@ let devMountainGoal = null
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
+
+function nameCheck(name) {
+  if (name === 'Steven') {
+    return 'What is up Steven?'
+  } else if (name === 'Bryan') {
+    return 'Hey Bryan!'
+  } else {
+    return `Cool name, ${name}`
+  }
+}
+
+console.log(nameCheck(name))
 
 //////////////////PROBLEM 11////////////////////
 
