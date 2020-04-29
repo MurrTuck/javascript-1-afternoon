@@ -2,7 +2,10 @@
 
 //Create a variable called myName that is a string data type
 
+
 //Code here
+
+let myName = "Murray"
 
 //////////////////PROBLEM 2////////////////////
 
@@ -10,11 +13,15 @@
 
 //Code here
 
+let myAge = 34
+
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
+
+let lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 
@@ -22,11 +29,15 @@
 
 //Code here
 
+let greatestFear = undefined
+
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
+
+let devMountainGoal = null
 
 //////////////////PROBLEM 6////////////////////
 
